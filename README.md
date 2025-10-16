@@ -40,7 +40,7 @@ Model Training: Fit each forecasting model with hyperparameter optimization.
 
 Evaluation: Compare models on validation set and visualize results.
 
-Forecast Visualization: Plot historical vs. predicted sales with confidence intervals.
+Forecast Visualization: Plot actual vs. predicted sales and next-week forecasts for performance insights.
 
 # 📈 Results
 
@@ -52,18 +52,31 @@ FBProphet: Great interpretability and holiday effect handling.
 
 LSTM: Captures non-linear and long-term patterns effectively.
 
-# 🧩 Tech Stack
+# 🧩 Tech Stack / Dependencies
 
-Python, NumPy, Pandas, Matplotlib, Seaborn
+Python 3.x
 
-Statsmodels (ARIMA, SARIMAX)
+pandas, numpy, matplotlib
 
-Facebook Prophet
+scikit-learn
 
-TensorFlow / Keras (LSTM)
+statsmodels (for ARIMA, SARIMAX)
 
-Scikit-learn (Evaluation & Scaling)
+fbprophet or prophet
+
+tensorflow or keras (for LSTM)
 
 # 🏁 Conclusion
 
 This end-to-end project demonstrates how hybrid time series forecasting approaches can improve retail demand prediction. By comparing traditional and neural network-based models, we gain insights into the strengths of each method for different forecasting horizons and data complexities.
+
+## 📬 Connect With Me
+
+This repository is a valuable resource for data scientists and analysts interested in practical time series forecasting with retail sales data.
+
+Feel free to raise issues or contribute improvements to enhance forecasting accuracy and efficiency!
+**👩‍💻 Shanila Anjum**
+📧 [shanilaanjum07@gmail.com](mailto:shanilaanjum07@gmail.com)
+🌐 [GitHub Profile](https://github.com/Shaneela07)
+ [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in//shaneela-anjum/)
+
